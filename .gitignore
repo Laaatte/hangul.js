@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.DS_Store
+
+# 클로드
+.claude/
+
+# han build 산출물
+*.han.js

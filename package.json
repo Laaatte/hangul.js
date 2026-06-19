@@ -1,0 +1,28 @@
+{
+  "name": "hangul-js",
+  "version": "0.4.0",
+  "description": "한글 키워드로 쓰는 자바스크립트 — 빌드/의존성 없는 단일 파일 트랜스파일러",
+  "main": "hangul.js",
+  "bin": {
+    "han": "bin/han.js"
+  },
+  "files": [
+    "hangul.js",
+    "bin/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/node-demo.js",
+    "hello": "node bin/han.js examples/hello.han"
+  },
+  "keywords": [
+    "hangul",
+    "korean",
+    "한글",
+    "transpiler",
+    "javascript",
+    "fun"
+  ],
+  "license": "MIT"
+}
